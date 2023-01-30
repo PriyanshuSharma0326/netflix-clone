@@ -66,8 +66,8 @@ Deploy this project on Firebase.
 
 To do this :
 
-**1.** `Go to https://console.firebase.google.com/`
-**2.** `Once the project is setup, go to Project Settings.`
-**3.** `Select Web App.`
-**4.** `Register your firebase app nickname. Make sure to tick Firebase hosting option on. Click Register App.`
-**5.** `Make sure to follow the subsequent steps to deploy your app on firebase(for FREE).`
+1. `Go to https://console.firebase.google.com/`
+2. `Once the project is setup, go to Project Settings.`
+3. `Select Web App.`
+4. `Register your firebase app nickname. Make sure to tick Firebase hosting option on. Click Register App.`
+5. `Make sure to follow the subsequent steps to deploy your app on firebase(for FREE).`
