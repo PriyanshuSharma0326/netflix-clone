@@ -57,6 +57,7 @@ To run this project, you will need to add the following environment variables to
 ## Tech Stack
 
 **Client:** React, Redux
+
 **Server** Firestore, Google Auth
 
 
