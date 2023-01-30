@@ -28,7 +28,7 @@ Install dependencies
   npm i react-router-dom
   npm i react-redux
   npm i react react-dom
-  npm i raect-scripts
+  npm i react-scripts
   npm i web-vitals
 ```
 
@@ -56,7 +56,8 @@ To run this project, you will need to add the following environment variables to
 
 ## Tech Stack
 
-**Client:** React, Redux, Firestore, Google Auth
+**Client:** React, Redux
+**Server** Firestore, Google Auth
 
 
 ## Deployment
@@ -65,10 +66,8 @@ Deploy this project on Firebase.
 
 To do this :
 
-```bash
-  1. Go to https://console.firebase.google.com/
-  2. Once the project is setup, go to Project Settings.
-  3. Select Web App.
-  4. Register your firebase app nickname. Make sure to tick Firebase hosting option on. Click Register App.
-  5. Make sure to follow the subsequent steps to deploy your app on firebase(for FREE).
-```
+**1.** `Go to https://console.firebase.google.com/`
+**2.** `Once the project is setup, go to Project Settings.`
+**3.** `Select Web App.`
+**4.** `Register your firebase app nickname. Make sure to tick Firebase hosting option on. Click Register App.`
+**5.** `Make sure to follow the subsequent steps to deploy your app on firebase(for FREE).`
