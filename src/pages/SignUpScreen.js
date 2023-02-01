@@ -12,9 +12,7 @@ export default function SignUpScreen() {
         auth.createUserWithEmailAndPassword(
             emailRef.current.value,
             passwordRef.current.value
-        ).then((authUser) => {
-            console.log(authUser);
-        }).catch((error) => {
+        ).catch((error) => {
             alert(error.message);
         });
     }
@@ -24,9 +22,7 @@ export default function SignUpScreen() {
         auth.signInWithEmailAndPassword(
             emailRef.current.value,
             passwordRef.current.value
-        ).then((authUser) => {
-            console.log(authUser);
-        }).catch((error) => {
+        ).catch((error) => {
             alert(error.message);
         });
     }

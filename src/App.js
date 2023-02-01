@@ -19,15 +19,12 @@ export default function App() {
     useEffect(() => {
         const unsubscribe = auth.onAuthStateChanged(userAuth => {
             if(userAuth) {
-                //Logged In
-                console.log(userAuth);
                 dispatch(login({
                     uid: userAuth.uid,
                     email: userAuth.email,
                 }));
             }
             else {
-                //Logged Out
                 dispatch(logout());
             }
         });
