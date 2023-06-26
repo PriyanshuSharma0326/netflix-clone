@@ -3,7 +3,7 @@
 
 Clone web application of Netflix.com built on React library and designed with custom CSS. It has the functionality to Login and Signup with an interactive and responsive home page. It also has a profile page that shows the subscription list.
 
-![Site preview](https://api.pikwy.com/web/642d48c39c06b84151016084.jpg)
+![Site preview](./public/media/desktop-design.png)
 
 
 ## Run Locally
